@@ -244,5 +244,5 @@ message Response {
     optional CmdRawGetResponse          cmd_raw_get_resp        = 256;
     optional CmdRawPutResponse          cmd_raw_put_resp        = 257;
     optional CmdRawDeleteResponse       cmd_raw_delete_resp     = 258;      
-    optional CmdRawScanResponse         cmd_batch_scan_resp     = 259;
+    optional CmdRawScanResponse         cmd_raw_scan_resp     = 259;
 }
